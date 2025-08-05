@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="sf-em-restAssured-Tests">
+<!--<parameter name="bookingType" value="REGULAR" />-->
+<parameter name="bookingType" value="${bookingType}" />
+<listeners>
+  		<listener  class-name="utilities.ListenerTest" />
+   </listeners>
+  <test thread-count="5" name="EventManagementAppTests">
+    <classes>
+      <class name="testEndPoints.EventManagerEndPointTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+		

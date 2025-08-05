@@ -1,0 +1,195 @@
+package testEndPoints;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+//import com.github.javafaker.Faker;
+
+import eventManagement.EventManagerEndPoint;
+import io.restassured.RestAssured;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
+import io.restassured.response.Response;
+import requestBody.Payload;
+import routes.Routes;
+import utilities.*;
+import static org.hamcrest.Matchers.*;
+import org.testng.Assert;
+
+
+@Listeners(utilities.ListenerTest.class)
+public class EventManagerEndPointTests {
+
+	//static Faker faker = new Faker();
+	static Payload userpayload = new Payload();
+	public static Logger loger = LogManager.getLogger("eventmanager");
+
+	@Test(priority = 1)
+	public void testGetRequest() throws IOException {
+
+		String endpoint = Routes.get_event_url;
+		String httpMethod = "get";
+		
+		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, null, null);
+		String eventReferenceId = response.body().jsonPath().getString("data[0].reference").toString();
+		FileUtil.writeToFile("./src/test/resources/EventId.txt", eventReferenceId);
+		
+		//Assertions
+		response.then().statusCode(200)
+		.body("status", equalTo("SUCCESS"))
+		.body("data", notNullValue())
+		.body("data.size()", greaterThan(0));
+		
+		// Logical check: availableCapacity should not exceed totalCapacity
+		response.then().body("data.findAll { it.availableCapacity > it.totalCapacity }", empty());
+		loger.log(Level.INFO, response.prettyPrint());
+
+
+	}
+
+	@Test(priority = 2)
+	public void createNewBookingTest() throws IOException {
+		String endpoint = Routes.post_booking_url;
+		String httpMethod = "post";
+
+		Path path = Paths.get("./src/test/resources/EventId.txt");
+		String eventReferenceId = Files.readString(path);
+		userpayload.setEventReference(eventReferenceId.toString());
+		userpayload.setBookingType(ConfigReader.get("bookingType"));
+
+		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, userpayload, null);
+
+		String bookingId = response.body().jsonPath().getString("reference").toString();
+		FileUtil.writeToFile("./src/test/resources/bookingId.txt", bookingId);
+		
+		// Assertions
+		response.then().statusCode(200)
+			.body("reference", notNullValue())
+			.body("status", equalTo("SUCCESSFUL"))
+			.body("eventName", notNullValue())
+			.body("fee", greaterThan(0f));
+		loger.log(Level.INFO, response.prettyPrint());
+
+	}
+
+	@Test(priority = 3)
+	public void cancelBookingTest() throws IOException {
+		String endpoint = Routes.update_booking_url;
+		String httpMethod = "put";
+		Path path = Paths.get("./src/test/resources/bookingId.txt");
+		String bookingReference = Files.readString(path).trim();
+
+		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, null, bookingReference);
+		
+		// Assertions
+		response.then().statusCode(anyOf(equalTo(200), equalTo(204)));
+		loger.log(Level.INFO, response.prettyPrint());
+
+	}
+	
+	@Parameters({"bookingType"})
+	@Test(priority = 4)
+	public void parameterizationTest(String bookingType) throws IOException {
+		String endpoint = Routes.post_booking_url;
+		String httpMethod = "post";
+
+		Path path = Paths.get("./src/test/resources/EventId.txt");
+		String eventReferenceId = Files.readString(path);
+		userpayload.setEventReference(eventReferenceId.toString());
+		userpayload.setBookingType(bookingType);
+
+		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, userpayload, null);
+
+		String bookingId = response.body().jsonPath().getString("reference").toString();
+		FileUtil.writeToFile("./src/test/resources/bookingId.txt", bookingId);
+		
+		// Assertions
+		response.then().statusCode(200)
+			.body("reference", notNullValue())
+			.body("status", equalTo("SUCCESSFUL"))
+			.body("eventName", notNullValue())
+			.body("fee", greaterThan(0f));
+		loger.log(Level.INFO, response.prettyPrint());
+
+	}
+	
+	@Test(dataProvider = "bookingTypes", dataProviderClass = BookingDataProvider.class, priority = 5)
+	public void testWithDifferentBooKingTypes(String bookingType) throws IOException {
+		String endpoint = Routes.post_booking_url;
+		String httpMethod = "post";
+
+		Path path = Paths.get("./src/test/resources/EventId.txt");
+		String eventReferenceId = Files.readString(path);
+		userpayload.setEventReference(eventReferenceId.toString());
+		userpayload.setBookingType(bookingType);
+
+		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, userpayload, null);
+
+		String bookingId = response.body().jsonPath().getString("reference").toString();
+		FileUtil.writeToFile("./src/test/resources/bookingId.txt", bookingId);
+		
+		// Assertions
+		response.then().statusCode(200)
+			.body("reference", notNullValue())
+			.body("status", equalTo("SUCCESSFUL"))
+			.body("eventName", notNullValue())
+			.body("fee", greaterThan(0f));
+		loger.log(Level.INFO, bookingType);
+		loger.log(Level.INFO, response.prettyPrint());
+
+	}
+	
+	@Test(priority = 6)
+	public void testAvailableCapacityReducesAfterBooking() throws IOException {
+	    String eventEndpoint = Routes.get_event_url;
+	    String bookingEndpoint = Routes.post_booking_url;
+
+	    RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+	    // Step 1: Get event with available capacity
+	    Response getResponse = EventManagerEndPoint.sendRequest(eventEndpoint, "get", null, null);
+
+	    String reference = getResponse.jsonPath().getString("data.find { it.availableCapacity > 0 }.reference");
+	    int availableBefore = getResponse.jsonPath()
+	            .getInt("data.find { it.reference == '" + reference + "' }.availableCapacity");
+
+	    Assert.assertNotNull(reference, "No event found with availableCapacity > 0");
+	    Assert.assertTrue(availableBefore > 0, "Invalid available capacity");
+
+	    // Step 2: Book the event
+	    userpayload.setEventReference(reference);
+	    userpayload.setBookingType(ConfigReader.get("bookingType"));
+
+	    Response bookingResponse = EventManagerEndPoint.sendRequest(bookingEndpoint, "post", userpayload, null);
+	    bookingResponse.then().statusCode(200).body("status", equalTo("SUCCESSFUL"));
+
+	    // Step 3: Re-fetch the event after booking
+	    Response getAfter = EventManagerEndPoint.sendRequest(eventEndpoint, "get", null, null);
+	    int availableAfter = getAfter.jsonPath()
+	            .getInt("data.find { it.reference == '" + reference + "' }.availableCapacity");
+
+	    // Step 4: Assert that capacity reduced
+	    Assert.assertEquals(availableAfter, availableBefore - 1,
+	            "Available capacity did not reduce after booking");
+
+	    // Optional logging
+	    loger.info("Event Reference: " + reference);
+	    loger.info("Available Before: " + availableBefore + " | Available After: " + availableAfter);
+	}
+
+
+}
