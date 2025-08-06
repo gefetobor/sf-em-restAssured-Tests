@@ -101,7 +101,7 @@ Includes utility classes to support config handling, reporting, logging, and tes
     - Logger name used: `eventmanager`.
     
     
-    BookingDataProvider
+    BookingDataProvider.java
 
   This class provides data-driven test inputs for booking-related test scenarios using TestNG's `@DataProvider` annotation.
   
