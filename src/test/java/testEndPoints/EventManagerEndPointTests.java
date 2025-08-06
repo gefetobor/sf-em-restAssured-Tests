@@ -13,6 +13,8 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import eventManagement.BaseTest;
+
 //import com.github.javafaker.Faker;
 
 import eventManagement.EventManagerEndPoint;
@@ -28,11 +30,10 @@ import org.testng.Assert;
 
 
 @Listeners(utilities.ListenerTest.class)
-public class EventManagerEndPointTests {
+public class EventManagerEndPointTests extends BaseTest {
 
 	//static Faker faker = new Faker();
 	static Payload userpayload = new Payload();
-	public static Logger loger = LogManager.getLogger("eventmanager");
 
 	@Test(priority = 1)
 	public void testGetRequest() throws IOException {
@@ -40,10 +41,10 @@ public class EventManagerEndPointTests {
 		String endpoint = Routes.get_event_url;
 		String httpMethod = "get";
 		
-		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		enableRestAssuredLogging();
 		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, null, null);
 		String eventReferenceId = response.body().jsonPath().getString("data[0].reference").toString();
-		FileUtil.writeToFile("./src/test/resources/EventId.txt", eventReferenceId);
+		writeToFile("./src/test/resources/EventId.txt", eventReferenceId);
 		
 		//Assertions
 		response.then().statusCode(200)
@@ -53,7 +54,7 @@ public class EventManagerEndPointTests {
 		
 		// Logical check: availableCapacity should not exceed totalCapacity
 		response.then().body("data.findAll { it.availableCapacity > it.totalCapacity }", empty());
-		loger.log(Level.INFO, response.prettyPrint());
+		logResponse(response);
 
 
 	}
@@ -62,17 +63,16 @@ public class EventManagerEndPointTests {
 	public void createNewBookingTest() throws IOException {
 		String endpoint = Routes.post_booking_url;
 		String httpMethod = "post";
-
-		Path path = Paths.get("./src/test/resources/EventId.txt");
-		String eventReferenceId = Files.readString(path);
+		String eventReferenceId = readFromFile("./src/test/resources/EventId.txt");
+		
 		userpayload.setEventReference(eventReferenceId.toString());
 		userpayload.setBookingType(ConfigReader.get("bookingType"));
 
-		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		enableRestAssuredLogging();
 		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, userpayload, null);
 
 		String bookingId = response.body().jsonPath().getString("reference").toString();
-		FileUtil.writeToFile("./src/test/resources/bookingId.txt", bookingId);
+		writeToFile("./src/test/resources/bookingId.txt", bookingId);
 		
 		// Assertions
 		response.then().statusCode(200)
@@ -80,7 +80,7 @@ public class EventManagerEndPointTests {
 			.body("status", equalTo("SUCCESSFUL"))
 			.body("eventName", notNullValue())
 			.body("fee", greaterThan(0f));
-		loger.log(Level.INFO, response.prettyPrint());
+		logResponse(response);
 
 	}
 
@@ -88,15 +88,13 @@ public class EventManagerEndPointTests {
 	public void cancelBookingTest() throws IOException {
 		String endpoint = Routes.update_booking_url;
 		String httpMethod = "put";
-		Path path = Paths.get("./src/test/resources/bookingId.txt");
-		String bookingReference = Files.readString(path).trim();
-
-		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		String bookingReference = readFromFile("./src/test/resources/bookingId.txt");
+		enableRestAssuredLogging();
 		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, null, bookingReference);
 		
 		// Assertions
 		response.then().statusCode(anyOf(equalTo(200), equalTo(204)));
-		loger.log(Level.INFO, response.prettyPrint());
+		logResponse(response);
 
 	}
 	
@@ -105,17 +103,15 @@ public class EventManagerEndPointTests {
 	public void parameterizationTest(String bookingType) throws IOException {
 		String endpoint = Routes.post_booking_url;
 		String httpMethod = "post";
-
-		Path path = Paths.get("./src/test/resources/EventId.txt");
-		String eventReferenceId = Files.readString(path);
+		String eventReferenceId = readFromFile("./src/test/resources/EventId.txt");
 		userpayload.setEventReference(eventReferenceId.toString());
 		userpayload.setBookingType(bookingType);
 
-		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		enableRestAssuredLogging();
 		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, userpayload, null);
 
 		String bookingId = response.body().jsonPath().getString("reference").toString();
-		FileUtil.writeToFile("./src/test/resources/bookingId.txt", bookingId);
+		writeToFile("./src/test/resources/bookingId.txt", bookingId);
 		
 		// Assertions
 		response.then().statusCode(200)
@@ -123,7 +119,7 @@ public class EventManagerEndPointTests {
 			.body("status", equalTo("SUCCESSFUL"))
 			.body("eventName", notNullValue())
 			.body("fee", greaterThan(0f));
-		loger.log(Level.INFO, response.prettyPrint());
+		logResponse(response);
 
 	}
 	
@@ -131,17 +127,15 @@ public class EventManagerEndPointTests {
 	public void testWithDifferentBooKingTypes(String bookingType) throws IOException {
 		String endpoint = Routes.post_booking_url;
 		String httpMethod = "post";
-
-		Path path = Paths.get("./src/test/resources/EventId.txt");
-		String eventReferenceId = Files.readString(path);
+		String eventReferenceId = readFromFile("./src/test/resources/EventId.txt");
 		userpayload.setEventReference(eventReferenceId.toString());
 		userpayload.setBookingType(bookingType);
-
-		RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+		
+		enableRestAssuredLogging();
 		Response response = EventManagerEndPoint.sendRequest(endpoint, httpMethod, userpayload, null);
-
+		
 		String bookingId = response.body().jsonPath().getString("reference").toString();
-		FileUtil.writeToFile("./src/test/resources/bookingId.txt", bookingId);
+		writeToFile("./src/test/resources/bookingId.txt", bookingId);
 		
 		// Assertions
 		response.then().statusCode(200)
@@ -149,8 +143,8 @@ public class EventManagerEndPointTests {
 			.body("status", equalTo("SUCCESSFUL"))
 			.body("eventName", notNullValue())
 			.body("fee", greaterThan(0f));
-		loger.log(Level.INFO, bookingType);
-		loger.log(Level.INFO, response.prettyPrint());
+		logInfo(bookingType);
+		logResponse(response);
 
 	}
 	
@@ -159,7 +153,7 @@ public class EventManagerEndPointTests {
 	    String eventEndpoint = Routes.get_event_url;
 	    String bookingEndpoint = Routes.post_booking_url;
 
-	    RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+	    enableRestAssuredLogging();
 	    // Step 1: Get event with available capacity
 	    Response getResponse = EventManagerEndPoint.sendRequest(eventEndpoint, "get", null, null);
 
@@ -186,9 +180,9 @@ public class EventManagerEndPointTests {
 	    Assert.assertEquals(availableAfter, availableBefore - 1,
 	            "Available capacity did not reduce after booking");
 
-	    // Optional logging
-	    loger.info("Event Reference: " + reference);
-	    loger.info("Available Before: " + availableBefore + " | Available After: " + availableAfter);
+	    // logging test details
+	    logInfo("Event Reference: " + reference);
+	    logInfo("Available Before: " + availableBefore + " | Available After: " + availableAfter);
 	}
 
 

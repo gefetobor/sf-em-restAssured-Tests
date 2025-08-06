@@ -1,0 +1,1276 @@
+16:36:37[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:36:37[main] INFO  eventmanager - TestName: createNewBookingTest
+16:36:37[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:36:38[main] INFO  eventManagement.BaseTest - {
+    "reference": "fced78dc107f4ddfa2131d31f559dcca",
+    "createdAt": "2025-08-06T15:36:38.492+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:36:38[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+16:36:38[main] INFO  eventmanager - TestName: cancelBookingTest
+16:36:38[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:36:38[main] INFO  eventmanager - 
+16:36:38[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+16:36:38[main] INFO  eventmanager - All data is being logged in log file
+
+16:36:38[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:36:38[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+16:36:38[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+16:43:24[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:43:24[main] INFO  eventmanager - TestName: createNewBookingTest
+16:43:24[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:43:24[main] INFO  eventmanager - java.nio.file.NoSuchFileException: ./src/test/resources/EventId.txt
+16:43:24[main] INFO  eventmanager - Test Case: createNewBookingTest is failed.
+
+16:43:24[main] INFO  eventmanager - TestName: cancelBookingTest
+16:43:24[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:43:24[main] INFO  eventmanager - java.nio.file.NoSuchFileException: ./src/test/resources/bookingId.txt
+16:43:24[main] INFO  eventmanager - Test Case: cancelBookingTest is failed.
+
+16:43:24[main] INFO  eventmanager - All data is being logged in log file
+
+16:43:25[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:43:54[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:43:54[main] INFO  eventmanager - TestName: testGetRequest
+16:43:54[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:43:55[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 405,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+16:43:55[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+16:43:55[main] INFO  eventmanager - TestName: createNewBookingTest
+16:43:55[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:43:55[main] INFO  eventManagement.BaseTest - {
+    "reference": "8e4fb1add7a841d597e8140b9606e223",
+    "createdAt": "2025-08-06T15:43:55.763+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:43:55[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+16:43:55[main] INFO  eventmanager - TestName: cancelBookingTest
+16:43:55[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:43:55[main] INFO  eventManagement.BaseTest - 
+16:43:55[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+16:43:55[main] INFO  eventmanager - All data is being logged in log file
+
+16:43:55[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:43:55[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+16:43:55[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+16:48:06[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:48:06[main] INFO  eventmanager - TestName: testGetRequest
+16:48:06[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:07[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 404,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+16:48:07[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+16:48:07[main] INFO  eventmanager - TestName: createNewBookingTest
+16:48:07[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:07[main] INFO  eventManagement.BaseTest - {
+    "reference": "1b705d6f67844d9e8c5d4c8c37b0c794",
+    "createdAt": "2025-08-06T15:48:07.691+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:48:07[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+16:48:07[main] INFO  eventmanager - TestName: cancelBookingTest
+16:48:07[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:07[main] INFO  eventManagement.BaseTest - 
+16:48:07[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+16:48:07[main] INFO  eventmanager - org.testng.TestNGException: 
+Parameter 'bookingType' is required by @Test on method parameterizationTest but has not been marked @Optional or defined
+in /private/var/folders/q_/l0jbw5ys5d91x72znlqfm6pw0000gp/T/testng-eclipse-69744904/testng-customsuite.xml
+16:48:07[main] INFO  eventmanager - Test Case: parameterizationTest is failed.
+
+16:48:07[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:48:07[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:07[main] INFO  eventManagement.BaseTest - REGULAR
+16:48:07[main] INFO  eventManagement.BaseTest - {
+    "reference": "66aa0ba9a1be4d2391bf990cc37fe598",
+    "createdAt": "2025-08-06T15:48:07.767+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:48:07[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:48:07[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:48:07[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:07[main] INFO  eventManagement.BaseTest - VIP
+16:48:07[main] INFO  eventManagement.BaseTest - {
+    "reference": "d29d7001d6364ff99990d7c34d6e45d6",
+    "createdAt": "2025-08-06T15:48:07.807+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "VIP",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:48:07[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:48:07[main] INFO  eventmanager - TestName: testAvailableCapacityReducesAfterBooking
+16:48:07[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:07[main] INFO  eventManagement.BaseTest - Event Reference: c291098f997543e6b5ae3f4d8950b616
+16:48:07[main] INFO  eventManagement.BaseTest - Available Before: 401 | Available After: 400
+16:48:07[main] INFO  eventmanager - Test Case: testAvailableCapacityReducesAfterBooking is passed.
+
+16:48:07[main] INFO  eventmanager - All data is being logged in log file
+
+16:48:08[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:48:08[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+16:48:08[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+16:48:27[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:48:27[main] INFO  eventmanager - TestName: testGetRequest
+16:48:27[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:27[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 400,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+16:48:27[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+16:48:27[main] INFO  eventmanager - TestName: createNewBookingTest
+16:48:27[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:27[main] INFO  eventManagement.BaseTest - {
+    "reference": "19de952c5ab244c3b0a4da4697099438",
+    "createdAt": "2025-08-06T15:48:27.789+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:48:27[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+16:48:27[main] INFO  eventmanager - TestName: cancelBookingTest
+16:48:27[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:27[main] INFO  eventManagement.BaseTest - 
+16:48:27[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+16:48:27[main] INFO  eventmanager - TestName: parameterizationTest
+16:48:27[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:27[main] INFO  eventmanager - java.lang.NullPointerException: Cannot invoke "String.toString()" because the return value of "io.restassured.path.json.JsonPath.getString(String)" is null
+16:48:27[main] INFO  eventmanager - Test Case: parameterizationTest is failed.
+
+16:48:27[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:48:27[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:27[main] INFO  eventManagement.BaseTest - REGULAR
+16:48:27[main] INFO  eventManagement.BaseTest - {
+    "reference": "33f57e5dce044dc7b6154200a50039f6",
+    "createdAt": "2025-08-06T15:48:27.888+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:48:27[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:48:27[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:48:27[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:27[main] INFO  eventManagement.BaseTest - VIP
+16:48:27[main] INFO  eventManagement.BaseTest - {
+    "reference": "ade9e1654c6e407ab136332b236de579",
+    "createdAt": "2025-08-06T15:48:27.925+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "VIP",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:48:27[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:48:27[main] INFO  eventmanager - TestName: testAvailableCapacityReducesAfterBooking
+16:48:27[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:48:28[main] INFO  eventManagement.BaseTest - Event Reference: c291098f997543e6b5ae3f4d8950b616
+16:48:28[main] INFO  eventManagement.BaseTest - Available Before: 397 | Available After: 396
+16:48:28[main] INFO  eventmanager - Test Case: testAvailableCapacityReducesAfterBooking is passed.
+
+16:48:28[main] INFO  eventmanager - All data is being logged in log file
+
+16:48:28[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:48:28[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+16:48:28[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+16:49:18[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:49:18[main] INFO  eventmanager - TestName: testGetRequest
+16:49:18[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:49:19[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 396,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+16:49:19[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+16:49:19[main] INFO  eventmanager - TestName: createNewBookingTest
+16:49:19[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:49:19[main] INFO  eventManagement.BaseTest - {
+    "reference": "2c2ccc3b0d1b4ad3a0391a7341ed3ba2",
+    "createdAt": "2025-08-06T15:49:19.426+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:49:19[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+16:49:19[main] INFO  eventmanager - TestName: cancelBookingTest
+16:49:19[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:49:19[main] INFO  eventManagement.BaseTest - 
+16:49:19[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+16:49:19[main] INFO  eventmanager - TestName: parameterizationTest
+16:49:19[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:49:19[main] INFO  eventManagement.BaseTest - {
+    "reference": "f1a0b969baa84f238f1285baa2478461",
+    "createdAt": "2025-08-06T15:49:19.488+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:49:19[main] INFO  eventmanager - Test Case: parameterizationTest is passed.
+
+16:49:19[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:49:19[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:49:19[main] INFO  eventManagement.BaseTest - REGULAR
+16:49:19[main] INFO  eventManagement.BaseTest - {
+    "reference": "54772ac1b51a4d04bdd2d2de1d469e63",
+    "createdAt": "2025-08-06T15:49:19.527+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:49:19[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:49:19[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:49:19[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:49:19[main] INFO  eventManagement.BaseTest - VIP
+16:49:19[main] INFO  eventManagement.BaseTest - {
+    "reference": "47ef9df5bedb45b09c6dffbcd78a3714",
+    "createdAt": "2025-08-06T15:49:19.559+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "VIP",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:49:19[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:49:19[main] INFO  eventmanager - TestName: testAvailableCapacityReducesAfterBooking
+16:49:19[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:49:19[main] INFO  eventManagement.BaseTest - Event Reference: c291098f997543e6b5ae3f4d8950b616
+16:49:19[main] INFO  eventManagement.BaseTest - Available Before: 392 | Available After: 391
+16:49:19[main] INFO  eventmanager - Test Case: testAvailableCapacityReducesAfterBooking is passed.
+
+16:49:19[main] INFO  eventmanager - All data is being logged in log file
+
+16:49:19[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:49:19[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+16:49:19[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+16:56:25[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:56:25[main] INFO  eventmanager - TestName: testGetRequest
+16:56:25[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:56:26[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 391,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+16:56:26[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+16:56:26[main] INFO  eventmanager - TestName: createNewBookingTest
+16:56:26[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:56:26[main] INFO  eventManagement.BaseTest - {
+    "reference": "3d2d144d1f934894af6e8d223b898c55",
+    "createdAt": "2025-08-06T15:56:26.326+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:56:26[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+16:56:26[main] INFO  eventmanager - TestName: cancelBookingTest
+16:56:26[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:56:26[main] INFO  eventManagement.BaseTest - 
+16:56:26[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+16:56:26[main] INFO  eventmanager - TestName: parameterizationTest
+16:56:26[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:56:26[main] INFO  eventmanager - java.lang.NullPointerException: Cannot invoke "String.toString()" because the return value of "io.restassured.path.json.JsonPath.getString(String)" is null
+16:56:26[main] INFO  eventmanager - Test Case: parameterizationTest is failed.
+
+16:56:26[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:56:26[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:56:26[main] INFO  eventManagement.BaseTest - REGULAR
+16:56:26[main] INFO  eventManagement.BaseTest - {
+    "reference": "9fc493b60f744d8b9b59842500d7594d",
+    "createdAt": "2025-08-06T15:56:26.433+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:56:26[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:56:26[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:56:26[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:56:26[main] INFO  eventManagement.BaseTest - VIP
+16:56:26[main] INFO  eventManagement.BaseTest - {
+    "reference": "21b10f4e7f9540fbbd1ac52cd34eb931",
+    "createdAt": "2025-08-06T15:56:26.473+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "VIP",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:56:26[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:56:26[main] INFO  eventmanager - TestName: testAvailableCapacityReducesAfterBooking
+16:56:26[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:56:26[main] INFO  eventManagement.BaseTest - Event Reference: c291098f997543e6b5ae3f4d8950b616
+16:56:26[main] INFO  eventManagement.BaseTest - Available Before: 388 | Available After: 387
+16:56:26[main] INFO  eventmanager - Test Case: testAvailableCapacityReducesAfterBooking is passed.
+
+16:56:26[main] INFO  eventmanager - All data is being logged in log file
+
+16:56:26[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:56:26[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+16:56:26[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+16:57:57[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:57:57[main] INFO  eventmanager - TestName: testGetRequest
+16:57:57[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:57:58[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 387,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+16:57:58[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+16:57:58[main] INFO  eventmanager - TestName: createNewBookingTest
+16:57:58[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:57:58[main] INFO  eventManagement.BaseTest - {
+    "reference": "0d5227b2065c4faa86d2357febe672a3",
+    "createdAt": "2025-08-06T15:57:58.462+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:57:58[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+16:57:58[main] INFO  eventmanager - TestName: cancelBookingTest
+16:57:58[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:57:58[main] INFO  eventManagement.BaseTest - 
+16:57:58[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+16:57:58[main] INFO  eventmanager - TestName: parameterizationTest
+16:57:58[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:57:58[main] INFO  eventmanager - java.lang.NullPointerException: Cannot invoke "String.toString()" because the return value of "io.restassured.path.json.JsonPath.getString(String)" is null
+16:57:58[main] INFO  eventmanager - Test Case: parameterizationTest is failed.
+
+16:57:58[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:57:58[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:57:58[main] INFO  eventManagement.BaseTest - REGULAR
+16:57:58[main] INFO  eventManagement.BaseTest - {
+    "reference": "19bd03ae50f04e409a20ca1daaa59a3e",
+    "createdAt": "2025-08-06T15:57:58.552+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:57:58[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:57:58[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:57:58[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:57:58[main] INFO  eventManagement.BaseTest - VIP
+16:57:58[main] INFO  eventManagement.BaseTest - {
+    "reference": "f5ab51f42d1c4d4ab6a314ab12e22f5f",
+    "createdAt": "2025-08-06T15:57:58.591+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "VIP",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:57:58[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:57:58[main] INFO  eventmanager - TestName: testAvailableCapacityReducesAfterBooking
+16:57:58[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:57:58[main] INFO  eventManagement.BaseTest - Event Reference: c291098f997543e6b5ae3f4d8950b616
+16:57:58[main] INFO  eventManagement.BaseTest - Available Before: 384 | Available After: 383
+16:57:58[main] INFO  eventmanager - Test Case: testAvailableCapacityReducesAfterBooking is passed.
+
+16:57:58[main] INFO  eventmanager - All data is being logged in log file
+
+16:57:58[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:57:58[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+16:57:58[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+16:58:10[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+16:58:10[main] INFO  eventmanager - TestName: testGetRequest
+16:58:10[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:58:11[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 383,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+16:58:11[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+16:58:11[main] INFO  eventmanager - TestName: createNewBookingTest
+16:58:11[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:58:11[main] INFO  eventManagement.BaseTest - {
+    "reference": "c78971fd298240c7a6513456d56aa580",
+    "createdAt": "2025-08-06T15:58:11.645+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:58:11[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+16:58:11[main] INFO  eventmanager - TestName: cancelBookingTest
+16:58:11[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:58:11[main] INFO  eventManagement.BaseTest - 
+16:58:11[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+16:58:11[main] INFO  eventmanager - TestName: parameterizationTest
+16:58:11[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:58:11[main] INFO  eventManagement.BaseTest - {
+    "reference": "a1b66b3a73794eac9b90cb0f82753580",
+    "createdAt": "2025-08-06T15:58:11.706+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:58:11[main] INFO  eventmanager - Test Case: parameterizationTest is passed.
+
+16:58:11[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:58:11[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:58:11[main] INFO  eventManagement.BaseTest - REGULAR
+16:58:11[main] INFO  eventManagement.BaseTest - {
+    "reference": "165536b6f70649a89503d24a52705c88",
+    "createdAt": "2025-08-06T15:58:11.745+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:58:11[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:58:11[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+16:58:11[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:58:11[main] INFO  eventManagement.BaseTest - VIP
+16:58:11[main] INFO  eventManagement.BaseTest - {
+    "reference": "0680d3e332cf43b3a805d189b7994ad6",
+    "createdAt": "2025-08-06T15:58:11.778+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "VIP",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+16:58:11[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+16:58:11[main] INFO  eventmanager - TestName: testAvailableCapacityReducesAfterBooking
+16:58:11[main] INFO  eventmanager - Author Name: efetoborobominuru
+16:58:11[main] INFO  eventManagement.BaseTest - Event Reference: c291098f997543e6b5ae3f4d8950b616
+16:58:11[main] INFO  eventManagement.BaseTest - Available Before: 379 | Available After: 378
+16:58:11[main] INFO  eventmanager - Test Case: testAvailableCapacityReducesAfterBooking is passed.
+
+16:58:11[main] INFO  eventmanager - All data is being logged in log file
+
+16:58:12[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+16:58:12[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+16:58:12[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+17:04:00[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+17:04:00[main] INFO  eventmanager - TestName: testGetRequest
+17:04:00[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:01[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 378,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+17:04:01[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+17:04:01[main] INFO  eventmanager - TestName: createNewBookingTest
+17:04:01[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:01[main] INFO  eventManagement.BaseTest - {
+    "reference": "9b0e2efbf6a94cdabad1e373ae2f8704",
+    "createdAt": "2025-08-06T16:04:01.836+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+17:04:01[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+17:04:01[main] INFO  eventmanager - TestName: cancelBookingTest
+17:04:01[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:01[main] INFO  eventManagement.BaseTest - 
+17:04:01[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+17:04:01[main] INFO  eventmanager - TestName: parameterizationTest
+17:04:01[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:01[main] INFO  eventmanager - java.lang.NullPointerException: Cannot invoke "String.toString()" because the return value of "io.restassured.path.json.JsonPath.getString(String)" is null
+17:04:01[main] INFO  eventmanager - Test Case: parameterizationTest is failed.
+
+17:04:01[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+17:04:01[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:01[main] INFO  eventManagement.BaseTest - REGULAR
+17:04:01[main] INFO  eventManagement.BaseTest - {
+    "reference": "2cef341c37f2402e8f7bc184e28d94b7",
+    "createdAt": "2025-08-06T16:04:01.929+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+17:04:01[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+17:04:01[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+17:04:01[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:02[main] INFO  eventManagement.BaseTest - VIP
+17:04:02[main] INFO  eventManagement.BaseTest - {
+    "reference": "194ae4209c0449659c67af6e920458f4",
+    "createdAt": "2025-08-06T16:04:01.983+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "VIP",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+17:04:02[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+17:04:02[main] INFO  eventmanager - TestName: testAvailableCapacityReducesAfterBooking
+17:04:02[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:02[main] INFO  eventManagement.BaseTest - Event Reference: c291098f997543e6b5ae3f4d8950b616
+17:04:02[main] INFO  eventManagement.BaseTest - Available Before: 375 | Available After: 374
+17:04:02[main] INFO  eventmanager - Test Case: testAvailableCapacityReducesAfterBooking is passed.
+
+17:04:02[main] INFO  eventmanager - All data is being logged in log file
+
+17:04:02[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+17:04:02[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+17:04:02[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
+17:04:11[main] INFO  eventManagement.BaseTest - === Test Suite Initialization Completed ===
+17:04:11[main] INFO  eventmanager - TestName: testGetRequest
+17:04:11[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:12[main] INFO  eventManagement.BaseTest - {
+    "status": "SUCCESS",
+    "data": [
+        {
+            "theme": "Tech Conference 2025",
+            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "createdAt": null,
+            "amount": 99.99,
+            "status": "OPEN",
+            "venue": "Convention Center, London",
+            "totalCapacity": 500,
+            "availableCapacity": 374,
+            "startTime": "2025-08-10T09:00:00.000+00:00",
+            "endTime": "2026-08-10T17:00:00.000+00:00"
+        },
+        {
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
+            "createdAt": null,
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
+        },
+        {
+            "theme": "Music Festival",
+            "reference": "550e8400-e29b-41d4-a716-446655440000",
+            "createdAt": null,
+            "amount": 55.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Open Air Stage",
+            "totalCapacity": 500,
+            "availableCapacity": 0,
+            "startTime": "2025-08-01T14:00:00.000+00:00",
+            "endTime": "2025-08-01T22:00:00.000+00:00"
+        },
+        {
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "createdAt": null,
+            "amount": 30.00,
+            "status": "OPEN",
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
+        },
+        {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        }
+    ],
+    "hasMore": false,
+    "currentPage": 0,
+    "totalPages": 1,
+    "totalItems": 5
+}
+17:04:12[main] INFO  eventmanager - Test Case: testGetRequest is passed.
+
+17:04:12[main] INFO  eventmanager - TestName: createNewBookingTest
+17:04:12[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:12[main] INFO  eventManagement.BaseTest - {
+    "reference": "2c9600a91b984a11af41788eebf0b377",
+    "createdAt": "2025-08-06T16:04:12.360+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+17:04:12[main] INFO  eventmanager - Test Case: createNewBookingTest is passed.
+
+17:04:12[main] INFO  eventmanager - TestName: cancelBookingTest
+17:04:12[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:12[main] INFO  eventManagement.BaseTest - 
+17:04:12[main] INFO  eventmanager - Test Case: cancelBookingTest is passed.
+
+17:04:12[main] INFO  eventmanager - TestName: parameterizationTest
+17:04:12[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:12[main] INFO  eventManagement.BaseTest - {
+    "reference": "14310a05699f4b9596543c1a5336812a",
+    "createdAt": "2025-08-06T16:04:12.419+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+17:04:12[main] INFO  eventmanager - Test Case: parameterizationTest is passed.
+
+17:04:12[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+17:04:12[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:12[main] INFO  eventManagement.BaseTest - REGULAR
+17:04:12[main] INFO  eventManagement.BaseTest - {
+    "reference": "0bed7f8a625442e48be4439f9b3700bf",
+    "createdAt": "2025-08-06T16:04:12.459+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "REGULAR",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+17:04:12[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+17:04:12[main] INFO  eventmanager - TestName: testWithDifferentBooKingTypes
+17:04:12[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:12[main] INFO  eventManagement.BaseTest - VIP
+17:04:12[main] INFO  eventManagement.BaseTest - {
+    "reference": "8161eb93f65b46908aa575035f8ef986",
+    "createdAt": "2025-08-06T16:04:12.491+00:00",
+    "fee": 99.99,
+    "status": "SUCCESSFUL",
+    "admissionNumber": null,
+    "type": "VIP",
+    "eventName": "Tech Conference 2025",
+    "eventVenue": "Convention Center, London"
+}
+17:04:12[main] INFO  eventmanager - Test Case: testWithDifferentBooKingTypes is passed.
+
+17:04:12[main] INFO  eventmanager - TestName: testAvailableCapacityReducesAfterBooking
+17:04:12[main] INFO  eventmanager - Author Name: efetoborobominuru
+17:04:12[main] INFO  eventManagement.BaseTest - Event Reference: c291098f997543e6b5ae3f4d8950b616
+17:04:12[main] INFO  eventManagement.BaseTest - Available Before: 370 | Available After: 369
+17:04:12[main] INFO  eventmanager - Test Case: testAvailableCapacityReducesAfterBooking is passed.
+
+17:04:12[main] INFO  eventmanager - All data is being logged in log file
+
+17:04:12[main] INFO  eventManagement.BaseTest - === Test Suite Execution Completed ===
+17:04:12[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/EventId.txt
+17:04:12[main] INFO  eventManagement.BaseTest - Deleted temporary file: ./src/test/resources/bookingId.txt
