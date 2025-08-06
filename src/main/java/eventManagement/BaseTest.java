@@ -3,10 +3,14 @@ package eventManagement;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
+import io.restassured.response.Response;
+import requestBody.Payload;
+import utilities.ConfigReader;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.IOException;
@@ -27,13 +31,16 @@ public class BaseTest {
     @AfterSuite
     public void tearDownSuite() {
         logger.info("=== Test Suite Execution Completed ===");
-
-        // Optional: clean temp files or notify
         try {
             cleanTemporaryFiles();
         } catch (IOException e) {
-            logger.error("Error during cleanup: " + e.getMessage());
+            logger.error("Error during temporary file cleanup: {}", e.getMessage(), e);
         }
+    }
+
+    @BeforeMethod
+    public void beforeEachTest() {
+        // Can be extended to reset state before each test if needed
     }
 
     protected void enableRestAssuredLogging() {
@@ -41,31 +48,47 @@ public class BaseTest {
     }
 
     protected String readFromFile(String filePath) throws IOException {
-        return Files.readString(Paths.get(filePath)).trim();
+        Path path = Paths.get(filePath);
+        if (!Files.exists(path)) {
+            throw new IOException("File not found: " + filePath);
+        }
+        return Files.readString(path).trim();
     }
 
     protected void writeToFile(String filePath, String data) throws IOException {
-        Files.writeString(Paths.get(filePath), data);
+        Path path = Paths.get(filePath);
+        Files.writeString(path, data);
     }
 
-    protected void logResponse(io.restassured.response.Response response) {
-        logger.info(response.prettyPrint());
+    protected void logResponse(Response response) {
+        if (response != null) {
+            logger.info(response.prettyPrint());
+        } else {
+            logger.warn("Attempted to log a null response.");
+        }
     }
 
     protected void logInfo(String message) {
         logger.info(message);
     }
 
-    protected void cleanTemporaryFiles() throws IOException {
-        deleteIfExists("./src/test/resources/EventId.txt");
-        deleteIfExists("./src/test/resources/bookingId.txt");
+    protected Payload createPayload(String eventReference, String bookingType) {
+        Payload payload = new Payload();
+        payload.setEventReference(eventReference);
+        payload.setBookingType(bookingType);
+        return payload;
     }
 
-    private void deleteIfExists(String filePath) throws IOException {
+    private void cleanTemporaryFiles() throws IOException {
+        deleteFileIfExists(ConfigReader.get("EVENT_ID_PATH"));
+        deleteFileIfExists(ConfigReader.get("BOOKING_ID_PATH"));
+    }
+
+    private void deleteFileIfExists(String filePath) throws IOException {
         Path path = Paths.get(filePath);
         if (Files.exists(path)) {
             Files.delete(path);
-            logger.info("Deleted temporary file: " + filePath);
+            logger.info("Deleted temporary file: {}", filePath);
         }
     }
 }

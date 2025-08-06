@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.865" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.862" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="surefire.suiteXmlFiles" value="testng.xml"/>
     <property name="java.specification.version" value="21"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/efetoborobominuru/Documents/sf-em-restAssured-Tests/target/surefire/surefirebooter-20250806195157184_3.jar /Users/efetoborobominuru/Documents/sf-em-restAssured-Tests/target/surefire 2025-08-06T19-51-57_135-jvmRun1 surefire-20250806195157184_1tmp surefire_0-20250806195157184_2tmp"/>
+    <property name="sun.java.command" value="/Users/efetoborobominuru/Documents/sf-em-restAssured-Tests/target/surefire/surefirebooter-20250806212812664_3.jar /Users/efetoborobominuru/Documents/sf-em-restAssured-Tests/target/surefire 2025-08-06T21-28-12_626-jvmRun1 surefire-20250806212812664_1tmp surefire_0-20250806212812664_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/efetoborobominuru/Documents/sf-em-restAssured-Tests/target/test-classes:/Users/efetoborobominuru/Documents/sf-em-restAssured-Tests/target/classes:/Users/efetoborobominuru/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/efetoborobominuru/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/efetoborobominuru/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/efetoborobominuru/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/efetoborobominuru/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/efetoborobominuru/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/efetoborobominuru/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/efetoborobominuru/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/efetoborobominuru/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/efetoborobominuru/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/efetoborobominuru/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/efetoborobominuru/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/efetoborobominuru/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/efetoborobominuru/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/efetoborobominuru/.m2/repository/org/json/json/20230227/json-20230227.jar:/Users/efetoborobominuru/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/efetoborobominuru/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/efetoborobominuru/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/efetoborobominuru/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/efetoborobominuru/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/efetoborobominuru/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/efetoborobominuru/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/efetoborobominuru/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/efetoborobominuru/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/efetoborobominuru/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/efetoborobominuru/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/efetoborobominuru/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/efetoborobominuru/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/efetoborobominuru/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/efetoborobominuru/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/efetoborobominuru/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/efetoborobominuru/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/efetoborobominuru/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/efetoborobominuru/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/efetoborobominuru/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/efetoborobominuru/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/efetoborobominuru/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/efetoborobominuru/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/efetoborobominuru/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/efetoborobominuru/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/efetoborobominuru/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/efetoborobominuru/.m2/repository/io/rest-assured/json-schema-validator/5.3.0/json-schema-validator-5.3.0.jar:/Users/efetoborobominuru/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/efetoborobominuru/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/efetoborobominuru/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/efetoborobominuru/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/efetoborobominuru/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/efetoborobominuru/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/efetoborobominuru/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/efetoborobominuru/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/efetoborobominuru/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/efetoborobominuru/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/efetoborobominuru/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/efetoborobominuru/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/efetoborobominuru/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/efetoborobominuru/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/efetoborobominuru/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/efetoborobominuru/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/efetoborobominuru/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/efetoborobominuru/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/efetoborobominuru/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/efetoborobominuru/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/efetoborobominuru/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/efetoborobominuru/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/efetoborobominuru/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/efetoborobominuru/Documents/sf-em-restAssured-Tests/target/surefire/surefirebooter-20250806195157184_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/efetoborobominuru/Documents/sf-em-restAssured-Tests/target/surefire/surefirebooter-20250806212812664_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2"/>
     <property name="user.name" value="efetoborobominuru"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testGetRequest" classname="testEndPoints.EventManagerEndPointTests" time="0.69">
+  <testcase name="testGetRequest" classname="testEndPoints.EventManagerEndPointTests" time="0.702">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://localhost:8080/v1/events
 Proxy:			<none>
@@ -70,17 +70,6 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
 HTTP/1.1 200 
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -90,7 +79,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:18 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -105,21 +94,9 @@ Connection: keep-alive
             "status": "OPEN",
             "venue": "Convention Center, London",
             "totalCapacity": 500,
-            "availableCapacity": 365,
+            "availableCapacity": 328,
             "startTime": "2025-08-10T09:00:00.000+00:00",
             "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
         },
         {
             "theme": "Music Festival",
@@ -134,18 +111,6 @@ Connection: keep-alive
             "endTime": "2025-08-01T22:00:00.000+00:00"
         },
         {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
             "theme": "AI Summit",
             "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
             "createdAt": null,
@@ -156,40 +121,18 @@ Connection: keep-alive
             "availableCapacity": 0,
             "startTime": "2025-07-01T09:00:00.000+00:00",
             "endTime": "2025-07-01T17:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
+        },
         {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
+            "theme": "Tech Conference",
+            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
             "createdAt": null,
-            "amount": 99.99,
+            "amount": 30.00,
             "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 365,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
+            "venue": "Convention Center A",
+            "totalCapacity": 100,
+            "availableCapacity": 31,
+            "startTime": "2025-06-10T08:00:00.000+00:00",
+            "endTime": "2025-06-10T16:00:00.000+00:00"
         },
         {
             "theme": "Art Showcase",
@@ -202,42 +145,6 @@ Connection: keep-alive
             "availableCapacity": 35,
             "startTime": "2025-07-15T10:00:00.000+00:00",
             "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
         }
     ],
     "hasMore": false,
@@ -256,21 +163,9 @@ Connection: keep-alive
             "status": "OPEN",
             "venue": "Convention Center, London",
             "totalCapacity": 500,
-            "availableCapacity": 365,
+            "availableCapacity": 328,
             "startTime": "2025-08-10T09:00:00.000+00:00",
             "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
         },
         {
             "theme": "Music Festival",
@@ -285,6 +180,18 @@ Connection: keep-alive
             "endTime": "2025-08-01T22:00:00.000+00:00"
         },
         {
+            "theme": "AI Summit",
+            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "createdAt": null,
+            "amount": 75.00,
+            "status": "FULLY_BOOKED",
+            "venue": "Tech Pavilion",
+            "totalCapacity": 200,
+            "availableCapacity": 0,
+            "startTime": "2025-07-01T09:00:00.000+00:00",
+            "endTime": "2025-07-01T17:00:00.000+00:00"
+        },
+        {
             "theme": "Tech Conference",
             "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
             "createdAt": null,
@@ -297,16 +204,16 @@ Connection: keep-alive
             "endTime": "2025-06-10T16:00:00.000+00:00"
         },
         {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
+            "theme": "Art Showcase",
+            "reference": "123e4567-e89b-12d3-a456-426614174000",
             "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
+            "amount": 20.00,
+            "status": "OPEN",
+            "venue": "Gallery District",
+            "totalCapacity": 80,
+            "availableCapacity": 35,
+            "startTime": "2025-07-15T10:00:00.000+00:00",
+            "endTime": "2025-07-15T16:00:00.000+00:00"
         }
     ],
     "hasMore": false,
@@ -320,7 +227,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="createNewBookingTest" classname="testEndPoints.EventManagerEndPointTests" time="0.13">
+  <testcase name="createNewBookingTest" classname="testEndPoints.EventManagerEndPointTests" time="0.133">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:8080/v1/bookings
 Proxy:			<none>
@@ -340,44 +247,6 @@ Body:
     "totalCapacity": 0,
     "availableCapacity": 0
 }
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
 HTTP/1.1 200 
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -387,59 +256,13 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:19 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "reference": "7c4382e03a904c90a7ad356922e2dd59",
-    "createdAt": "2025-08-06T18:52:03.737+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "7c4382e03a904c90a7ad356922e2dd59",
-    "createdAt": "2025-08-06T18:52:03.737+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "7c4382e03a904c90a7ad356922e2dd59",
-    "createdAt": "2025-08-06T18:52:03.737+00:00",
+    "reference": "5385e248ee97455992d65f4788b980e2",
+    "createdAt": "2025-08-06T20:28:19.270+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -448,8 +271,8 @@ Connection: keep-alive
     "eventVenue": "Convention Center, London"
 }
 {
-    "reference": "7c4382e03a904c90a7ad356922e2dd59",
-    "createdAt": "2025-08-06T18:52:03.737+00:00",
+    "reference": "5385e248ee97455992d65f4788b980e2",
+    "createdAt": "2025-08-06T20:28:19.270+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -459,53 +282,14 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="cancelBookingTest" classname="testEndPoints.EventManagerEndPointTests" time="0.02">
+  <testcase name="cancelBookingTest" classname="testEndPoints.EventManagerEndPointTests" time="0.016">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	http://localhost:8080/v1/bookings/7c4382e03a904c90a7ad356922e2dd59/cancel
+Request URI:	http://localhost:8080/v1/bookings/5385e248ee97455992d65f4788b980e2/cancel
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	bookingReference=7c4382e03a904c90a7ad356922e2dd59
-Headers:		userId=12345
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	PUT
-Request URI:	http://localhost:8080/v1/bookings/7c4382e03a904c90a7ad356922e2dd59/cancel
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	bookingReference=7c4382e03a904c90a7ad356922e2dd59
-Headers:		userId=12345
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	PUT
-Request URI:	http://localhost:8080/v1/bookings/7c4382e03a904c90a7ad356922e2dd59/cancel
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	bookingReference=7c4382e03a904c90a7ad356922e2dd59
-Headers:		userId=12345
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	PUT
-Request URI:	http://localhost:8080/v1/bookings/7c4382e03a904c90a7ad356922e2dd59/cancel
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	bookingReference=7c4382e03a904c90a7ad356922e2dd59
+Path params:	bookingReference=5385e248ee97455992d65f4788b980e2
 Headers:		userId=12345
 				Accept=*/*
 				Content-Type=application/json
@@ -520,46 +304,13 @@ Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
 Content-Length: 0
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Length: 0
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Length: 0
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Length: 0
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:19 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 ]]></system-out>
   </testcase>
-  <testcase name="parameterizationTest[REGULAR](1)" classname="testEndPoints.EventManagerEndPointTests" time="0.041">
+  <testcase name="parameterizationTest[REGULAR](1)" classname="testEndPoints.EventManagerEndPointTests" time="0.034">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:8080/v1/bookings
 Proxy:			<none>
@@ -579,82 +330,6 @@ Body:
     "totalCapacity": 0,
     "availableCapacity": 0
 }
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
 HTTP/1.1 200 
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -664,105 +339,13 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:19 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "reference": "7435bbd0ebd44ba5a3feee8b2e4b25ca",
-    "createdAt": "2025-08-06T18:52:03.792+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "7435bbd0ebd44ba5a3feee8b2e4b25ca",
-    "createdAt": "2025-08-06T18:52:03.792+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "7435bbd0ebd44ba5a3feee8b2e4b25ca",
-    "createdAt": "2025-08-06T18:52:03.792+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "7435bbd0ebd44ba5a3feee8b2e4b25ca",
-    "createdAt": "2025-08-06T18:52:03.792+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "7435bbd0ebd44ba5a3feee8b2e4b25ca",
-    "createdAt": "2025-08-06T18:52:03.792+00:00",
+    "reference": "b512b2d9ee0a476daf3b6778eb4ca18b",
+    "createdAt": "2025-08-06T20:28:19.322+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -771,8 +354,8 @@ Connection: keep-alive
     "eventVenue": "Convention Center, London"
 }
 {
-    "reference": "7435bbd0ebd44ba5a3feee8b2e4b25ca",
-    "createdAt": "2025-08-06T18:52:03.792+00:00",
+    "reference": "b512b2d9ee0a476daf3b6778eb4ca18b",
+    "createdAt": "2025-08-06T20:28:19.322+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -782,7 +365,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testWithDifferentBooKingTypes[REGULAR](1)" classname="testEndPoints.EventManagerEndPointTests" time="0.033">
+  <testcase name="testWithDifferentBookingTypes[REGULAR](1)" classname="testEndPoints.EventManagerEndPointTests" time="0.034">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:8080/v1/bookings
 Proxy:			<none>
@@ -802,101 +385,6 @@ Body:
     "totalCapacity": 0,
     "availableCapacity": 0
 }
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
 HTTP/1.1 200 
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -906,128 +394,13 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:19 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "reference": "960185af04c247c8b7fd3212dbb04756",
-    "createdAt": "2025-08-06T18:52:03.838+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "960185af04c247c8b7fd3212dbb04756",
-    "createdAt": "2025-08-06T18:52:03.838+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "960185af04c247c8b7fd3212dbb04756",
-    "createdAt": "2025-08-06T18:52:03.838+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "960185af04c247c8b7fd3212dbb04756",
-    "createdAt": "2025-08-06T18:52:03.838+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "960185af04c247c8b7fd3212dbb04756",
-    "createdAt": "2025-08-06T18:52:03.838+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "960185af04c247c8b7fd3212dbb04756",
-    "createdAt": "2025-08-06T18:52:03.838+00:00",
+    "reference": "9751f9ba3d204ffbb9e999528fd7e228",
+    "createdAt": "2025-08-06T20:28:19.360+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -1036,8 +409,8 @@ Connection: keep-alive
     "eventVenue": "Convention Center, London"
 }
 {
-    "reference": "960185af04c247c8b7fd3212dbb04756",
-    "createdAt": "2025-08-06T18:52:03.838+00:00",
+    "reference": "9751f9ba3d204ffbb9e999528fd7e228",
+    "createdAt": "2025-08-06T20:28:19.360+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -1047,7 +420,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testWithDifferentBooKingTypes[VIP](2)" classname="testEndPoints.EventManagerEndPointTests" time="0.036">
+  <testcase name="testWithDifferentBookingTypes[VIP](2)" classname="testEndPoints.EventManagerEndPointTests" time="0.03">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:8080/v1/bookings
 Proxy:			<none>
@@ -1067,120 +440,6 @@ Body:
     "totalCapacity": 0,
     "availableCapacity": 0
 }
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "VIP",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "VIP",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "VIP",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "VIP",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "VIP",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "VIP",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
 HTTP/1.1 200 
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -1190,151 +449,13 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:19 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "reference": "19bc821623294bbaa824251fad63e360",
-    "createdAt": "2025-08-06T18:52:03.871+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "VIP",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "19bc821623294bbaa824251fad63e360",
-    "createdAt": "2025-08-06T18:52:03.871+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "VIP",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "19bc821623294bbaa824251fad63e360",
-    "createdAt": "2025-08-06T18:52:03.871+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "VIP",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "19bc821623294bbaa824251fad63e360",
-    "createdAt": "2025-08-06T18:52:03.871+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "VIP",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "19bc821623294bbaa824251fad63e360",
-    "createdAt": "2025-08-06T18:52:03.871+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "VIP",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "19bc821623294bbaa824251fad63e360",
-    "createdAt": "2025-08-06T18:52:03.871+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "VIP",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "19bc821623294bbaa824251fad63e360",
-    "createdAt": "2025-08-06T18:52:03.871+00:00",
+    "reference": "2a35eedbeb124f9da870b578be799852",
+    "createdAt": "2025-08-06T20:28:19.393+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -1343,8 +464,8 @@ Connection: keep-alive
     "eventVenue": "Convention Center, London"
 }
 {
-    "reference": "19bc821623294bbaa824251fad63e360",
-    "createdAt": "2025-08-06T18:52:03.871+00:00",
+    "reference": "2a35eedbeb124f9da870b578be799852",
+    "createdAt": "2025-08-06T20:28:19.393+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -1354,7 +475,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testAvailableCapacityReducesAfterBooking" classname="testEndPoints.EventManagerEndPointTests" time="0.075">
+  <testcase name="testAvailableCapacityReducesAfterBooking" classname="testEndPoints.EventManagerEndPointTests" time="0.053">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://localhost:8080/v1/events
 Proxy:			<none>
@@ -1366,83 +487,6 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
 HTTP/1.1 200 
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -1452,7 +496,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:19 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -1467,7 +511,7 @@ Connection: keep-alive
             "status": "OPEN",
             "venue": "Convention Center, London",
             "totalCapacity": 500,
-            "availableCapacity": 361,
+            "availableCapacity": 324,
             "startTime": "2025-08-10T09:00:00.000+00:00",
             "endTime": "2026-08-10T17:00:00.000+00:00"
         },
@@ -1484,18 +528,6 @@ Connection: keep-alive
             "endTime": "2025-08-01T22:00:00.000+00:00"
         },
         {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
             "theme": "Tech Conference",
             "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
             "createdAt": null,
@@ -1508,64 +540,6 @@ Connection: keep-alive
             "endTime": "2025-06-10T16:00:00.000+00:00"
         },
         {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 361,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
             "theme": "Art Showcase",
             "reference": "123e4567-e89b-12d3-a456-426614174000",
             "createdAt": null,
@@ -1576,510 +550,6 @@ Connection: keep-alive
             "availableCapacity": 35,
             "startTime": "2025-07-15T10:00:00.000+00:00",
             "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 361,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 361,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 361,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 361,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 361,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 361,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
         },
         {
             "theme": "AI Summit",
@@ -2118,139 +588,6 @@ Body:
     "totalCapacity": 0,
     "availableCapacity": 0
 }
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
-Request method:	POST
-Request URI:	http://localhost:8080/v1/bookings
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		userId=12345
-				Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "eventReference": "c291098f997543e6b5ae3f4d8950b616",
-    "bookingType": "REGULAR",
-    "totalCapacity": 0,
-    "availableCapacity": 0
-}
 HTTP/1.1 200 
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -2260,174 +597,13 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:19 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "reference": "b0aa3b73ce6d4e7f92cf8bb667c4ede7",
-    "createdAt": "2025-08-06T18:52:03.938+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "b0aa3b73ce6d4e7f92cf8bb667c4ede7",
-    "createdAt": "2025-08-06T18:52:03.938+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "b0aa3b73ce6d4e7f92cf8bb667c4ede7",
-    "createdAt": "2025-08-06T18:52:03.938+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "b0aa3b73ce6d4e7f92cf8bb667c4ede7",
-    "createdAt": "2025-08-06T18:52:03.938+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "b0aa3b73ce6d4e7f92cf8bb667c4ede7",
-    "createdAt": "2025-08-06T18:52:03.938+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "b0aa3b73ce6d4e7f92cf8bb667c4ede7",
-    "createdAt": "2025-08-06T18:52:03.938+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "b0aa3b73ce6d4e7f92cf8bb667c4ede7",
-    "createdAt": "2025-08-06T18:52:03.938+00:00",
-    "fee": 99.99,
-    "status": "SUCCESSFUL",
-    "admissionNumber": null,
-    "type": "REGULAR",
-    "eventName": "Tech Conference 2025",
-    "eventVenue": "Convention Center, London"
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "reference": "b0aa3b73ce6d4e7f92cf8bb667c4ede7",
-    "createdAt": "2025-08-06T18:52:03.938+00:00",
+    "reference": "f3e969d1039643878312f600e16738b9",
+    "createdAt": "2025-08-06T20:28:19.448+00:00",
     "fee": 99.99,
     "status": "SUCCESSFUL",
     "admissionNumber": null,
@@ -2446,83 +622,6 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	http://localhost:8080/v1/events
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
 HTTP/1.1 200 
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 0
@@ -2532,7 +631,7 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
+Date: Wed, 06 Aug 2025 20:28:19 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -2547,581 +646,7 @@ Connection: keep-alive
             "status": "OPEN",
             "venue": "Convention Center, London",
             "totalCapacity": 500,
-            "availableCapacity": 360,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 360,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 360,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 360,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 360,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 360,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 360,
-            "startTime": "2025-08-10T09:00:00.000+00:00",
-            "endTime": "2026-08-10T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Music Festival",
-            "reference": "550e8400-e29b-41d4-a716-446655440000",
-            "createdAt": null,
-            "amount": 55.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Open Air Stage",
-            "totalCapacity": 500,
-            "availableCapacity": 0,
-            "startTime": "2025-08-01T14:00:00.000+00:00",
-            "endTime": "2025-08-01T22:00:00.000+00:00"
-        },
-        {
-            "theme": "AI Summit",
-            "reference": "c0a8015a-000f-11ee-be56-0242ac120002",
-            "createdAt": null,
-            "amount": 75.00,
-            "status": "FULLY_BOOKED",
-            "venue": "Tech Pavilion",
-            "totalCapacity": 200,
-            "availableCapacity": 0,
-            "startTime": "2025-07-01T09:00:00.000+00:00",
-            "endTime": "2025-07-01T17:00:00.000+00:00"
-        },
-        {
-            "theme": "Tech Conference",
-            "reference": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-            "createdAt": null,
-            "amount": 30.00,
-            "status": "OPEN",
-            "venue": "Convention Center A",
-            "totalCapacity": 100,
-            "availableCapacity": 31,
-            "startTime": "2025-06-10T08:00:00.000+00:00",
-            "endTime": "2025-06-10T16:00:00.000+00:00"
-        },
-        {
-            "theme": "Art Showcase",
-            "reference": "123e4567-e89b-12d3-a456-426614174000",
-            "createdAt": null,
-            "amount": 20.00,
-            "status": "OPEN",
-            "venue": "Gallery District",
-            "totalCapacity": 80,
-            "availableCapacity": 35,
-            "startTime": "2025-07-15T10:00:00.000+00:00",
-            "endTime": "2025-07-15T16:00:00.000+00:00"
-        }
-    ],
-    "hasMore": false,
-    "currentPage": 0,
-    "totalPages": 1,
-    "totalItems": 5
-}
-HTTP/1.1 200 
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Wed, 06 Aug 2025 18:52:03 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-{
-    "status": "SUCCESS",
-    "data": [
-        {
-            "theme": "Tech Conference 2025",
-            "reference": "c291098f997543e6b5ae3f4d8950b616",
-            "createdAt": null,
-            "amount": 99.99,
-            "status": "OPEN",
-            "venue": "Convention Center, London",
-            "totalCapacity": 500,
-            "availableCapacity": 360,
+            "availableCapacity": 323,
             "startTime": "2025-08-10T09:00:00.000+00:00",
             "endTime": "2026-08-10T17:00:00.000+00:00"
         },

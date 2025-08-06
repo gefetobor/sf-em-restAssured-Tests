@@ -2,28 +2,40 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-06T19:52:02 BST" name="sf-em-restAssured-Tests" finished-at="2025-08-06T19:52:03 BST" duration-ms="1039">
+  <suite started-at="2025-08-06T21:28:18 BST" name="sf-em-restAssured-Tests" finished-at="2025-08-06T21:28:19 BST" duration-ms="1022">
     <groups>
     </groups>
-    <test started-at="2025-08-06T19:52:02 BST" name="EventManagementAppTests" finished-at="2025-08-06T19:52:03 BST" duration-ms="1039">
+    <test started-at="2025-08-06T21:28:18 BST" name="EventManagementAppTests" finished-at="2025-08-06T21:28:19 BST" duration-ms="1022">
       <class name="testEndPoints.EventManagerEndPointTests">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:02 BST" name="setUpSuite" finished-at="2025-08-06T19:52:02 BST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:18 BST" name="setUpSuite" finished-at="2025-08-06T21:28:18 BST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method signature="testGetRequest()[pri:1, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:02 BST" name="testGetRequest" finished-at="2025-08-06T19:52:03 BST" duration-ms="690" status="PASS">
+        <test-method signature="testGetRequest()[pri:1, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:18 BST" name="testGetRequest" finished-at="2025-08-06T21:28:19 BST" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRequest -->
-        <test-method signature="createNewBookingTest()[pri:2, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:03 BST" name="createNewBookingTest" finished-at="2025-08-06T19:52:03 BST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:18 BST" name="beforeEachTest" finished-at="2025-08-06T21:28:18 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="createNewBookingTest()[pri:2, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="createNewBookingTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewBookingTest -->
-        <test-method signature="cancelBookingTest()[pri:3, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:03 BST" name="cancelBookingTest" finished-at="2025-08-06T19:52:03 BST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="beforeEachTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="cancelBookingTest()[pri:3, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="cancelBookingTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelBookingTest -->
-        <test-method signature="parameterizationTest(java.lang.String)[pri:4, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:03 BST" name="parameterizationTest" finished-at="2025-08-06T19:52:03 BST" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="beforeEachTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="parameterizationTest(java.lang.String)[pri:4, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="parameterizationTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="33" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +46,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parameterizationTest -->
-        <test-method signature="testWithDifferentBooKingTypes(java.lang.String)[pri:5, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:03 BST" name="testWithDifferentBooKingTypes" data-provider="bookingTypes" finished-at="2025-08-06T19:52:03 BST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="beforeEachTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="testWithDifferentBookingTypes(java.lang.String)[pri:5, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="testWithDifferentBookingTypes" data-provider="bookingTypes" finished-at="2025-08-06T21:28:19 BST" duration-ms="29" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,8 +60,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWithDifferentBooKingTypes -->
-        <test-method signature="testWithDifferentBooKingTypes(java.lang.String)[pri:5, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:03 BST" name="testWithDifferentBooKingTypes" data-provider="bookingTypes" finished-at="2025-08-06T19:52:03 BST" duration-ms="34" status="PASS">
+        </test-method> <!-- testWithDifferentBookingTypes -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="beforeEachTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="beforeEachTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="testWithDifferentBookingTypes(java.lang.String)[pri:5, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="testWithDifferentBookingTypes" data-provider="bookingTypes" finished-at="2025-08-06T21:28:19 BST" duration-ms="29" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,12 +79,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWithDifferentBooKingTypes -->
-        <test-method signature="testAvailableCapacityReducesAfterBooking()[pri:6, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:03 BST" name="testAvailableCapacityReducesAfterBooking" finished-at="2025-08-06T19:52:03 BST" duration-ms="71" status="PASS">
+        </test-method> <!-- testWithDifferentBookingTypes -->
+        <test-method signature="testAvailableCapacityReducesAfterBooking()[pri:6, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="testAvailableCapacityReducesAfterBooking" finished-at="2025-08-06T21:28:19 BST" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAvailableCapacityReducesAfterBooking -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:testEndPoints.EventManagerEndPointTests@2c104774]" started-at="2025-08-06T19:52:04 BST" name="tearDownSuite" finished-at="2025-08-06T19:52:04 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="beforeEachTest" finished-at="2025-08-06T21:28:19 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:testEndPoints.EventManagerEndPointTests@44e3760b]" started-at="2025-08-06T21:28:19 BST" name="tearDownSuite" finished-at="2025-08-06T21:28:19 BST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
