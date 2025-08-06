@@ -19,8 +19,9 @@ This test suite is designed to validate the functionality, reliability, and corr
 3. **Run Tests with Maven**  
    From the root directory of the test suite, execute the following command:
     
-   `mvn test` (For simple runs)
-   `mvn test -DbookingType=REGULAR -Dsurefire.suiteXmlFiles=testng.xml` (To override inputs at runtime) (sample: BookingTypes - VIP, REGULAR)
+   - `mvn test` (For simple runs)
+   OR
+   - `mvn test -DbookingType=REGULAR -Dsurefire.suiteXmlFiles=testng.xml` (To override inputs at runtime) (sample: BookingTypes - VIP, REGULAR)
 
 ## 🧪 Execution Flow Summary
   - Tests use `Payload.java` to construct the request body.
