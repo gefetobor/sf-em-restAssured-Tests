@@ -37,12 +37,16 @@ This test suite is designed to validate the functionality, reliability, and corr
 
 This package contains the core class for sending HTTP requests to the Event Management API.
 
-    EventManagerEndPoint.java
+      BaseTest.java
+This an abstract utility class that contains common setup, teardown, and utility methods used across all API test classes. This class helps ensure consistency across tests.
+
+      EventManagerEndPoint.java
 
   - Handles all types of HTTP requests (GET, POST, PUT, DELETE).
   - Injects headers like userId from config.
   - Dynamically switches based on method type.
   - Supports payload and path parameters.
+    
 
 **Package:** `requestBody`
 
