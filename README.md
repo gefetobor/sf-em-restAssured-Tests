@@ -130,7 +130,10 @@ Contains test cases that validate the Event Management API.
 - Dynamic event IDs and booking references are saved to:  
   - `EventId.txt`  
   - `bookingId.txt`  
-- Configurable fields (e.g. userId, bookingType) read from `config.properties`  
+- Configurable fields (e.g. userId, bookingType) read from `config.properties`
+- Data-driven tests utilizing:
+   - @DataProvider to test multiple inputs for a single test case making a test method reusable and dynamic.
+   - @parameter to inject a single value into the test, typically for environment or config-based inputs and control execution externally (CI/CD) so that data can be overridden at runtime if necessary.  
 
 ## 🧹 Maintenance Notes
 - Review regression suite after each major feature addition  
