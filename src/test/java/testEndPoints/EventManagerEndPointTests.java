@@ -15,9 +15,13 @@ import utilities.*;
 
 import static org.hamcrest.Matchers.*;
 import org.testng.Assert;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Listeners(utilities.ListenerTest.class)
 public class EventManagerEndPointTests extends BaseTest {
+
+    private static final Logger logger = LogManager.getLogger(EventManagerEndPointTests.class);
 
     @Test(priority = 1)
     public void testGetRequest() throws IOException {
@@ -27,12 +31,17 @@ public class EventManagerEndPointTests extends BaseTest {
         String eventReferenceId = response.jsonPath().getString("data[0].reference");
         writeToFile(ConfigReader.get("EVENT_ID_PATH"), eventReferenceId);
 
-        response.then()
-            .statusCode(200)
-            .body("status", equalTo("SUCCESS"))
-            .body("data", notNullValue())
-            .body("data.size()", greaterThan(0))
-            .body("data.findAll { it.availableCapacity > it.totalCapacity }", empty());
+        try {
+            response.then()
+                .statusCode(200)
+                .body("status", equalTo("SUCCESS"))
+                .body("data", notNullValue())
+                .body("data.size()", greaterThan(0))
+                .body("data.findAll { it.availableCapacity > it.totalCapacity }", empty());
+        } catch (AssertionError e) {
+            logger.error("testGetRequest failed: " + e.getMessage());
+            throw e;
+        }
 
         logResponse(response);
     }
@@ -48,12 +57,17 @@ public class EventManagerEndPointTests extends BaseTest {
         String bookingId = response.jsonPath().getString("reference");
         writeToFile(ConfigReader.get("BOOKING_ID_PATH"), bookingId);
 
-        response.then()
-            .statusCode(200)
-            .body("reference", notNullValue())
-            .body("status", equalTo("SUCCESSFUL"))
-            .body("eventName", notNullValue())
-            .body("fee", greaterThan(0f));
+        try {
+            response.then()
+                .statusCode(200)
+                .body("reference", notNullValue())
+                .body("status", equalTo("SUCCESSFUL"))
+                .body("eventName", notNullValue())
+                .body("fee", greaterThan(0f));
+        } catch (AssertionError e) {
+            logger.error("createNewBookingTest failed: " + e.getMessage());
+            throw e;
+        }
 
         logResponse(response);
     }
@@ -65,7 +79,12 @@ public class EventManagerEndPointTests extends BaseTest {
 
         Response response = EventManagerEndPoint.sendRequest(endpoint, "put", null, bookingReference);
 
-        response.then().statusCode(anyOf(equalTo(200), equalTo(204)));
+        try {
+            response.then().statusCode(anyOf(equalTo(200), equalTo(204)));
+        } catch (AssertionError e) {
+            logger.error("cancelBookingTest failed: " + e.getMessage());
+            throw e;
+        }
 
         logResponse(response);
     }
@@ -82,12 +101,17 @@ public class EventManagerEndPointTests extends BaseTest {
         String bookingId = response.jsonPath().getString("reference");
         writeToFile(ConfigReader.get("BOOKING_ID_PATH"), bookingId);
 
-        response.then()
-            .statusCode(200)
-            .body("reference", notNullValue())
-            .body("status", equalTo("SUCCESSFUL"))
-            .body("eventName", notNullValue())
-            .body("fee", greaterThan(0f));
+        try {
+            response.then()
+                .statusCode(200)
+                .body("reference", notNullValue())
+                .body("status", equalTo("SUCCESSFUL"))
+                .body("eventName", notNullValue())
+                .body("fee", greaterThan(0f));
+        } catch (AssertionError e) {
+            logger.error("parameterizationTest failed: " + e.getMessage());
+            throw e;
+        }
 
         logResponse(response);
     }
@@ -103,12 +127,17 @@ public class EventManagerEndPointTests extends BaseTest {
         String bookingId = response.jsonPath().getString("reference");
         writeToFile(ConfigReader.get("BOOKING_ID_PATH"), bookingId);
 
-        response.then()
-            .statusCode(200)
-            .body("reference", notNullValue())
-            .body("status", equalTo("SUCCESSFUL"))
-            .body("eventName", notNullValue())
-            .body("fee", greaterThan(0f));
+        try {
+            response.then()
+                .statusCode(200)
+                .body("reference", notNullValue())
+                .body("status", equalTo("SUCCESSFUL"))
+                .body("eventName", notNullValue())
+                .body("fee", greaterThan(0f));
+        } catch (AssertionError e) {
+            logger.error("testWithDifferentBookingTypes failed for bookingType {}: {}", bookingType, e.getMessage());
+            throw e;
+        }
 
         logInfo("Booking type tested: " + bookingType);
         logResponse(response);
@@ -131,7 +160,13 @@ public class EventManagerEndPointTests extends BaseTest {
         // Step 2: Book the event
         Payload payload = createPayload(reference, ConfigReader.get("bookingType"));
         Response bookingResponse = EventManagerEndPoint.sendRequest(bookingEndpoint, "post", payload, null);
-        bookingResponse.then().statusCode(200).body("status", equalTo("SUCCESSFUL"));
+
+        try {
+            bookingResponse.then().statusCode(200).body("status", equalTo("SUCCESSFUL"));
+        } catch (AssertionError e) {
+            logger.error("Booking API call failed: " + e.getMessage());
+            throw e;
+        }
 
         // Step 3: Fetch event again
         Response getAfter = EventManagerEndPoint.sendRequest(eventEndpoint, "get", null, null);
