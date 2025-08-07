@@ -10,7 +10,6 @@ import utilities.ConfigReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.IOException;
@@ -36,11 +35,6 @@ public class BaseTest {
         } catch (IOException e) {
             logger.error("Error during temporary file cleanup: {}", e.getMessage(), e);
         }
-    }
-
-    @BeforeMethod
-    public void beforeEachTest() {
-        // Can be extended to reset state before each test if needed
     }
 
     protected void enableRestAssuredLogging() {
