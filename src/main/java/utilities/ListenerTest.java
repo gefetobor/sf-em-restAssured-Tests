@@ -25,8 +25,9 @@ public class ListenerTest implements ITestListener {
 		String classname = result.getTestClass().getName();
 		classname = classname.replace("testEndPoints.", "");
 		loger.log(Level.INFO, "TestName: " + result.getMethod().getMethodName());
+		loger.log(Level.INFO, "TestDescription: " + result.getMethod().getDescription());
 		loger.log(Level.INFO, "Author Name: " + System.getProperty("user.name"));
-		test = extent.createTest(result.getMethod().getMethodName());
+		test = extent.createTest(result.getMethod().getMethodName()).info(result.getMethod().getDescription());
 	}
 
 	@Override

@@ -9,7 +9,7 @@ public class BookingDataProvider {
         return new Object[][] {
             {"REGULAR"},
             {"VIP"}
-           // {"STUDENT"}
+           //{"REGULARL"}
         };
     }
 }

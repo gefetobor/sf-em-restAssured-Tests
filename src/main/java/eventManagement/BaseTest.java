@@ -61,6 +61,14 @@ public class BaseTest {
             logger.warn("Attempted to log a null response.");
         }
     }
+    
+    protected void logError(String string, String bookingType, AssertionError e) {
+        if (e != null) {
+            logger.error(string, bookingType, e.getMessage());  
+        } else {
+            logger.warn("Attempted to log a null response.");
+        }
+    }
 
     protected void logInfo(String message) {
         logger.info(message);
